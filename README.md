@@ -1,53 +1,64 @@
 # HR Employee Attrition Analysis
 
-This repository contains an analysis of employee attrition data to identify key factors contributing to attrition and provide insights to help organizations reduce turnover.
+This repository contains an in-depth analysis of employee attrition to identify key factors influencing turnover rates and provide actionable insights for retention strategies.
 
-## Dashboard Summary
+## Overview
 
-### Key Metrics:
-- **Attrition Rate:** Percentage of employees leaving the company.
-- **Job Satisfaction Levels:** Breakdown of satisfaction ratings.
-- **Age and Attrition Correlation:** Insights into age groups more prone to attrition.
-- **Department-Wise Analysis:** Attrition trends across various departments.
+Employee attrition is a critical metric for organizations aiming to retain top talent. This project explores the relationship between employee demographics, job roles, and satisfaction levels to uncover patterns and trends in attrition.
+
+## Key Features
 
 ### Visualizations:
-1. **Attrition by Department:**
-   - Bar chart displaying the distribution of attrition across departments.
+1. **Employee Age Distribution:**
+   - Histogram with a density plot to visualize age demographics.
 
-2. **Job Satisfaction Levels:**
-   - Pie chart showing the percentage of employees in each satisfaction category.
+2. **Gender Distribution Across Departments:**
+   - Bar chart showing the proportion of male and female employees by department.
 
-3. **Attrition by Age:**
-   - Line chart correlating attrition rates with employee age groups.
+3. **Monthly Income Distribution by Department:**
+   - Box plot to analyze income disparities across departments.
 
-4. **Salary vs Attrition:**
-   - Scatter plot analyzing the relationship between salary and attrition.
+4. **Relationship Between Total Working Years and Monthly Income:**
+   - Scatter plot highlighting the correlation between tenure and earnings.
+
+5. **Average Job Satisfaction by Department:**
+   - Bar plot showing satisfaction levels across departments.
+
+6. **Monthly Income by Education Level:**
+   - Bar chart illustrating income trends based on education.
+
+7. **Years Since Last Promotion vs. Attrition:**
+   - Heatmap to understand the impact of promotions on employee turnover.
+
+8. **Promotions by Department and Gender:**
+   - Stacked bar chart analyzing promotion trends.
 
 ## Dataset
 
-The dataset includes the following fields:
-
+### Fields:
 - **EmployeeID:** Unique identifier for each employee.
 - **Age:** Age of the employee.
 - **Gender:** Gender of the employee.
-- **Department:** Department in which the employee works.
+- **Department:** Department of employment.
 - **Job Role:** Specific role of the employee.
-- **Monthly Income:** Employee’s monthly salary.
-- **Attrition:** Whether the employee left the company (Yes/No).
-- **Job Satisfaction:** Satisfaction rating of the employee.
-- **Years at Company:** Total years the employee has been with the organization.
-- **Performance Rating:** Performance evaluation score.
+- **Monthly Income:** Monthly earnings of the employee.
+- **Attrition:** Whether the employee left the organization (Yes/No).
+- **Job Satisfaction:** Satisfaction rating (1-5).
+- **Years at Company:** Total tenure in years.
+- **Years Since Last Promotion:** Number of years since the last promotion.
 
 ## Objectives
 
-1. Identify key factors influencing employee attrition.
-2. Analyze attrition trends across departments and demographics.
-3. Correlate job satisfaction, salary, and performance with attrition rates.
+1. Analyze attrition trends across various demographics.
+2. Correlate job satisfaction and income with attrition rates.
+3. Understand the impact of promotions on employee retention.
 4. Provide actionable recommendations to reduce turnover.
+
+## Technologies Used
 
 - **Python Libraries:**
   - `pandas`: For data manipulation and analysis.
-  - `matplotlib`: For static data visualizations.
-  - `seaborn`: For advanced trend analysis and heatmaps.
+  - `matplotlib`: For static visualizations.
+  - `seaborn`: For advanced data visualizations.
   - `numpy`: For numerical computations.
-  - `warnings`: To suppress unnecessary warnings during execution.
+  - `warnings`: To suppress irrelevant warnings.
