@@ -9,7 +9,6 @@ In the age of data-driven decision-making, HR analytics is becoming essential fo
 
 - Practice data wrangling and cleaning  
 - Analyze workforce behavior patterns  
-- Build a predictive model to anticipate HR outcomes  
 - Develop actionable recommendations for HR teams
 
 ## Key Business Questions
@@ -39,7 +38,6 @@ The dataset includes:
 - Data Cleaning and Handling Missing Values  
 - Exploratory Data Analysis (EDA) with seaborn, matplotlib, and pandas  
 - Feature Engineering  
-- Predictive Modeling using Logistic Regression  
 - Business-Oriented Recommendations
 
 ## Contact
