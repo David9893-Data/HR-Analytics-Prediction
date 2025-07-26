@@ -1,4 +1,4 @@
-# HR Analytics Prediction
+# HR Analytics Analysis
 
 ## 🎯 Objective  
 This project explores key factors influencing employee performance and retention using a real-world HR dataset. The goal is to provide data-driven insights to help businesses improve their HR strategies and reduce turnover.
